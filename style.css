@@ -1,0 +1,37 @@
+/* LuxVoice site — paper-white brand (DESIGN.md v2.1) */
+:root{
+  --paper:#F9F7F2;--paper-bright:#FDFCF8;--subtle:#EFECE3;--surface:#FFFFFF;
+  --hairline:#E2DCCC;--ink:#161311;--ink2:#3A352D;--muted:#5A5347;
+  --teal:#1F8E81;--teal-strong:#197564;--teal-deep:#2E665B;--faint:#E0F1ED;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--paper);color:var(--ink2);
+  font-family:'Hiragino Sans','Hiragino Kaku Gothic ProN','Helvetica Neue',sans-serif;
+  font-size:16px;line-height:1.9;-webkit-font-smoothing:antialiased;}
+.wrap{max-width:720px;margin:0 auto;padding:56px 24px 96px;}
+header.site{display:flex;align-items:baseline;gap:14px;margin-bottom:56px;}
+header.site a{font-weight:600;color:var(--ink);text-decoration:none;font-size:18px;letter-spacing:.02em;}
+header.site nav{margin-left:auto;display:flex;gap:22px;}
+header.site nav a{font-size:14px;color:var(--muted);font-weight:500;}
+header.site nav a:hover{color:var(--teal-strong);}
+h1{font-size:28px;font-weight:600;color:var(--ink);line-height:1.4;margin-bottom:10px;letter-spacing:-.01em;}
+.lead{color:var(--muted);font-size:15px;margin-bottom:48px;}
+h2{font-size:19px;font-weight:600;color:var(--ink);margin:44px 0 14px;padding-top:28px;border-top:1px solid var(--hairline);}
+p{margin-bottom:14px;}
+ul{margin:0 0 14px 1.3em;}
+li{margin-bottom:6px;}
+strong{color:var(--ink);font-weight:600;}
+a{color:var(--teal-strong);}
+.card{background:var(--surface);border:1px solid var(--hairline);border-radius:18px;padding:22px 26px;margin:18px 0;}
+.badge{display:inline-flex;align-items:center;gap:8px;background:var(--faint);color:var(--teal-strong);
+  font-size:13px;font-weight:600;padding:6px 14px;border-radius:999px;margin-bottom:24px;}
+footer.site{margin-top:72px;padding-top:24px;border-top:1px solid var(--hairline);
+  font-size:13px;color:var(--muted);display:flex;gap:18px;flex-wrap:wrap;}
+footer.site a{color:var(--muted);}
+.hero{padding:48px 0 8px;}
+.hero h1{font-size:34px;}
+.hero .tagline{font-size:17px;color:var(--muted);margin:14px 0 36px;}
+.btns{display:flex;gap:14px;flex-wrap:wrap;}
+.btn{display:inline-block;padding:12px 26px;border-radius:999px;text-decoration:none;font-weight:600;font-size:15px;}
+.btn.primary{background:var(--teal);color:#fff;}
+.btn.ghost{border:1px solid var(--hairline);color:var(--ink2);background:var(--surface);}

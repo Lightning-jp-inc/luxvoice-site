@@ -1,0 +1,68 @@
+<!doctype html><html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>プライバシーポリシー — LuxVoice</title>
+<link rel="stylesheet" href="../style.css">
+</head><body><div class="wrap">
+<header class="site"><a href="../">LuxVoice</a><nav><a href="../support/">サポート</a><a href="./">プライバシー</a></nav></header>
+
+<h1>プライバシーポリシー</h1>
+<p class="lead">最終改定日: 2026年6月10日</p>
+
+<div class="badge">音声・テキストは端末の外に出ません（Zero-Egress）</div>
+
+<p>LuxVoice（以下「本アプリ」）は、あなたの声とテキストを最大限に尊重して設計されています。本アプリは、音声の認識および文章の整形をすべてあなたのデバイス上で行い、その内容を開発者や第三者のサーバーに送信しません。</p>
+
+<h2>1. 本アプリが収集しない情報</h2>
+<ul>
+<li><strong>音声データ</strong>: あなたが録音した音声はデバイス内で処理され、開発者は一切取得しません。</li>
+<li><strong>認識結果・整形結果</strong>: 音声から変換・整形されたテキストはデバイス内に保存され、開発者のサーバーには送信されません。</li>
+<li>本アプリはアカウント登録を必要とせず、氏名・メールアドレス等の個人情報を収集しません。</li>
+<li>広告 SDK・解析 SDK・トラッキング SDK を使用しません。</li>
+</ul>
+
+<h2>2. デバイス内での処理（オンデバイス）</h2>
+<ul>
+<li><strong>音声認識</strong>: オンデバイスの音声認識エンジン（WhisperKit）を使用し、デバイス内で完結します。</li>
+<li><strong>文章整形</strong>: 対応端末では Apple のオンデバイス AI（Foundation Models / Apple Intelligence）を使用し、デバイス内で整形します。非対応端末では、ルールベースの処理と辞書置換のみを使用します。</li>
+<li>いずれの処理も、音声・テキストを外部に送信しません。</li>
+</ul>
+
+<h2>3. iCloud 同期（任意）</h2>
+<ul>
+<li>本アプリは、<strong>ユーザー辞書とテンプレート</strong>のみを、Apple の iCloud（NSUbiquitousKeyValueStore）を通じてあなたの端末間で同期できます。</li>
+<li>同期されるのは辞書とテンプレートのみで、<strong>音声・認識結果・入力履歴は同期されません</strong>（端末内にのみ保存）。</li>
+<li>iCloud 上のデータはあなたの Apple ID アカウント内に保存され、開発者はアクセスできません。</li>
+<li>iCloud 同期は設定で無効化できます。</li>
+</ul>
+
+<h2>4. モデルのダウンロード</h2>
+<p>初回利用時に、音声認識モデル（WhisperKit）をダウンロードする場合があります。これはモデルファイルの取得のみであり、あなたの音声や入力内容を送信するものではありません。</p>
+
+<h2>5. アクセス許可</h2>
+<p>本アプリは以下の許可を、明示された目的のためにのみ使用します。</p>
+<ul>
+<li><strong>マイク</strong>: 音声を録音し、文字に変換するため。</li>
+<li><strong>音声認識</strong>: 録音した音声をテキストに変換するため。</li>
+<li><strong>バックグラウンド音声</strong>: 録音中にアプリがバックグラウンドへ移っても音声を取りこぼさないため（録音セッションの継続のみに使用し、停止時に解放します）。</li>
+</ul>
+
+<h2>6. 第三者への提供</h2>
+<p>本アプリは、あなたのデータを第三者へ販売・提供しません。</p>
+
+<h2>7. データの保存と削除</h2>
+<ul>
+<li>録音履歴・辞書・テンプレートは、あなたのデバイス内に保存されます。</li>
+<li>アプリ内でこれらを削除できます。アプリを削除すると、デバイス内のデータも削除されます。</li>
+</ul>
+
+<h2>8. 子どものプライバシー</h2>
+<p>本アプリは、13歳未満の子どもから意図的に個人情報を収集しません。</p>
+
+<h2>9. 本ポリシーの変更</h2>
+<p>本ポリシーは必要に応じて更新されることがあります。重要な変更がある場合は、アプリまたは本ページで通知します。</p>
+
+<h2>10. お問い合わせ</h2>
+<p>本ポリシーに関するご質問は、<a href="mailto:lightning.jp.corp@gmail.com">lightning.jp.corp@gmail.com</a> までお問い合わせください。</p>
+
+<footer class="site"><span>© 2026 LuxVoice</span><a href="../support/">サポート</a><a href="../">ホーム</a></footer>
+</div></body></html>
